@@ -8,6 +8,7 @@ Before starting you need to have the temporal server running
 
 ### Running this sample
 
+- To init run `npm install` to install all necessary packages.
 - `npm run start.watch` to start the Worker.
 - In another shell, `npm run workflow` to run the Workflow Client.
 - In another shell, `npx ts-node src/make-coffee-request.ts wf-id=your-workflow-id` to run the Signal.
